@@ -1,21 +1,52 @@
+html {
+    overscroll-behavior-y: contain;
+}
+
 body {
     font-family: "Noto Sans", sans-serif;
     font-weight: 100;
     color: rgb(230, 230, 230);
     background-color: rgb(33, 33, 33);
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 20vh;
+    overscroll-behavior-y: contain;
 }
 
 .content {
     width: 50vw;
     margin-left: 25vw;
-    margin-top: 20vh;
+}
+
+.name-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.ouroboros {
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    fill: rgb(180, 180, 180);
+}
+
+.name-block {
+    width: fit-content;
 }
 
 .title {
     text-align: left;
     margin: 0;
+    white-space: nowrap;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 1rem 0 2rem 0;
+    width: 100%;
 }
 
 .links {
