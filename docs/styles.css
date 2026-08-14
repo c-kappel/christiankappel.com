@@ -27,7 +27,30 @@ body {
     transform: translateX(-50%);
     width: 25rem;
     height: 25rem;
+}
+
+.ouroboros-ring {
+    fill: none;
+    stroke: rgb(230, 230, 230);
+    stroke-width: 16;
+}
+
+.ouroboros-dashes {
+    fill: none;
+    stroke: rgb(33, 33, 33);
+    stroke-width: 16;
+}
+
+.ouroboros-head .mouth {
+    fill: rgb(33, 33, 33);
+}
+
+.ouroboros-head .tail-tip {
     fill: rgb(230, 230, 230);
+}
+
+.ouroboros-head .eye {
+    fill: rgb(33, 33, 33);
 }
 
 .name-block {
