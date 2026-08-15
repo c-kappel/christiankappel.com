@@ -27,11 +27,21 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.side-circle path {
+.side-circle circle {
     fill: none;
     stroke: rgb(230, 230, 230);
-    stroke-width: 8;
-    stroke-linejoin: round;
+    stroke-width: 10;
+}
+
+.side-circle .accent-line {
+    stroke: rgb(230, 230, 230);
+    stroke-width: 10;
+}
+
+
+.side-circle .bg-line {
+    stroke: rgb(33, 33, 33);
+    stroke-width: 1;
 }
 
 .name-block {
