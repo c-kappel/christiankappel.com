@@ -1,5 +1,5 @@
 ## Personal Website 
-My personal website
+My portfolio page. Some other interesting things included as well.
 
 ## Link 
-christiankappel.com
+[christiankappel.com](https://christiankappel.com)
